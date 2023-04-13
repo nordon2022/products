@@ -7,6 +7,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { TuiAlertModule, TuiDialogModule, TuiRootModule } from '@taiga-ui/core';
 import { MainComponent } from './pages/main/main.component';
 import {TuiButtonModule} from '@taiga-ui/core';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [AppComponent, MainComponent],
@@ -18,6 +19,7 @@ import {TuiButtonModule} from '@taiga-ui/core';
     TuiAlertModule,
     TuiDialogModule,
     TuiButtonModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
